@@ -56,7 +56,6 @@ class _InfiniteScrollScreenState extends State<InfiniteScrollScreen> {
     isLoading = false;
     if (!isMounted) return;
     setState(() {});
-
     moveScrollToBottom();
   }
 
